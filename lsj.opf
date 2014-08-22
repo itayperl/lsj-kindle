@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="a5f82220-e59d-430b-b54e-b4f037ad11b0" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>An intermediate Greek-English lexicon</dc:title>
+    <dc:creator>Henry George Liddell, Robert Scott</dc:creator>
+    <dc:language>el</dc:language>
+    <dc:description>The "Middle Liddell" is an abridgement of Liddell and Scott's Greek-English Lexicon</dc:description>
+    <dc:date>1889</dc:date>
+    <meta name="cover" content="cover" />
+    <x-metadata>
+      <DictionaryInLanguage>el</DictionaryInLanguage>
+      <DictionaryOutLanguage>en</DictionaryOutLanguage>
+    </x-metadata>
+  </metadata>
+  <manifest>
+      <item id="dict" media-type="text/x-oeb1-document" href="dict.html"></item>
+      <item id="cover" media-type="image/jpeg" href="cover.jpg"></item>
+  </manifest>
+  <spine>
+      <itemref idref="dict"></itemref>
+  </spine>
+</package>
